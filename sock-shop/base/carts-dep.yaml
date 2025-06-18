@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: carts
   annotations:
-    argocd.argoproj.io/sync-wave: "1" #demo sync wave 1
+    argocd.argoproj.io/sync-wave: "1" #demo sync wave 1 
   labels:
     name: carts
 spec:
