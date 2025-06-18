@@ -13,6 +13,6 @@ spec:
           command:
             - sh
             - -c
-            - echo Running database migrations...; sleep 20
+            - echo Running database migrations...; sleep 40
       restartPolicy: Never
 
